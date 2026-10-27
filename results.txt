@@ -1,0 +1,55 @@
+artem@DESKTOP-FT0O53S MINGW64 /e/INTITA/WEB-Дизайн/practice/wokr1 (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 5 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+artem@DESKTOP-FT0O53S MINGW64 /e/INTITA/WEB-Дизайн/practice/wokr1 (main)
+$ git branch
+* main
+  newbranch
+
+artem@DESKTOP-FT0O53S MINGW64 /e/INTITA/WEB-Дизайн/practice/wokr1 (main)
+$ git log
+commit 0cfba4c3b5f4e27c48766527313438719fdd26d8 (HEAD -> main)
+Author: ArtemZinenko <artemzinenko228@gmail.com>
+Date:   Tue Oct 27 09:40:40 2026 +0200
+
+    Add initial content to index.html
+
+commit e076996a619d98997de3eccb685624d8115cd353
+Merge: 856868b 2345486
+Author: ArtemZinenko <artemzinenko228@gmail.com>
+Date:   Tue Oct 27 09:37:08 2026 +0200
+
+    fix
+
+commit 856868b5ac48539398328bddbb471627fc16a114 (origin/main, origin/HEAD)
+Author: ArtemZinenko <artemzinenko228@gmail.com>
+Date:   Fri Oct 23 10:34:20 2026 +0300
+
+    додано print
+
+commit 2345486cfb5070438dcf117641c24dee40151715 (origin/newbranch, newbranch)
+Author: ArtemZinenko <artemzinenko228@gmail.com>
+Date:   Fri Oct 23 10:30:18 2026 +0300
+
+    Додано else
+
+commit c90d79bdb535b6efff1b6a1f054c815e04e1bb7c
+Author: ArtemZinenko <artemzinenko228@gmail.com>
+Date:   Fri Oct 23 10:29:09 2026 +0300
+
+artem@DESKTOP-FT0O53S MINGW64 /e/INTITA/WEB-Дизайн/practice/wokr1 (main)
+$ git log --merges
+commit e076996a619d98997de3eccb685624d8115cd353
+Merge: 856868b 2345486
+Author: ArtemZinenko <artemzinenko228@gmail.com>
+Date:   Tue Oct 27 09:37:08 2026 +0200
+
+    fix
+
+artem@DESKTOP-FT0O53S MINGW64 /e/INTITA/WEB-Дизайн/practice/wokr1 (main)
+$
